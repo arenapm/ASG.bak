@@ -4,9 +4,9 @@
 
     <main>
         <section aria-labelledby="aspnetTitle">
-            <input id="user" type="text" /><br /><br />
-            <input id="pass" type="password" /><br /><br />
-            <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" />
+            <asp:TextBox ID="txtUser" runat="server"></asp:TextBox><br /><br />
+            <asp:TextBox ID="txtPass" runat="server"></asp:TextBox><br /><br />
+            <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" OnClick="btnIngresar_Click" />
         </section>
 
     </main>
